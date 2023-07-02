@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: CreateOrderTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.954 s <<< FAILURE! - in CreateOrderTest
+createOrderWithLoginAndIngredients(CreateOrderTest)  Time elapsed: 2.125 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at CreateOrderTest.createOrderWithLoginAndIngredients(CreateOrderTest.java:51)
+
+orderCreateWithoutLoginAndWithIngredients(CreateOrderTest)  Time elapsed: 0.377 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at CreateOrderTest.orderCreateWithoutLoginAndWithIngredients(CreateOrderTest.java:80)
+
